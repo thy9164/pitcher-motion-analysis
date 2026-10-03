@@ -1,0 +1,54 @@
+# Local legacy source (preserved outside the public repository)
+/ui.py
+/pitcher_motion_mediapipe_v1_original.py
+
+# Local videos and evaluation data
+/videos/
+/New Videos/
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.m4v
+*.webm
+*.wmv
+*.mpg
+*.mpeg
+
+# Generated outputs and temporary files
+/output.mp4
+/plot.png
+/outputs/
+/tmp/
+/temp/
+*.tmp
+*.part
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+py38env/
+_venvs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local reference papers and historical presentations
+*.pdf
+*.ppt
+*.pptx
+
+# IDE, local configuration, and operating-system files
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Screenshots under assets/ are intentionally not ignored.

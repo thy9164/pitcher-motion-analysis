@@ -1,0 +1,6 @@
+# Python 3.11; direct dependencies. MediaPipe requires the contrib OpenCV build.
+numpy==1.26.4
+mediapipe==0.10.21
+opencv-contrib-python==4.10.0.84
+matplotlib==3.10.8
+PyQt5==5.15.11
