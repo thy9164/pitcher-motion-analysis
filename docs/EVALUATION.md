@@ -15,7 +15,7 @@ Before running the detector, I manually annotated the target events by reviewing
 
 ## Results
 
-The table shows the manual annotation followed by the detector prediction.
+The table shows the manual annotation followed by the detector prediction (annotation → prediction).
 
 | Clip | Foot Contact | MER | Ball Release | Observation |
 |---|---|---|---|---|
