@@ -17,7 +17,7 @@ As the project developed, I also added several motion-analysis features and a Py
 ## Method Overview
 
 ```mermaid
-flowchart LR
+flowchart TB
     V[Pitching Video] --> P[MediaPipe Pose]
     P --> F[2D Landmark Features]
     F --> E[Event Detection]
@@ -56,18 +56,19 @@ Detecting a few event frames alone gives limited information about the pitching 
 The GUI was developed gradually alongside the detector as a way to inspect intermediate results, compare frames, and review the final analysis.
 
 ![Pitch analysis demo](assets/pitch_analysis_demo.gif)
+*Demo shown at 0.5× playback speed for clarity; playback speed does not represent processing speed.*
 
 ## Evaluation
 
 The original undergraduate project was mainly evaluated visually while I developed the detector.
 
-In 2026, I revisited the project and tested the original event-detection logic on six additional pitching clips that were separate from the original demo videos. I manually annotated the three events before running the detector.
+In 2026, I revisited the project and tested the original event-detection logic on six additional pitching clips that were separate from the original demo videos. I manually annotated the target events before running the detector.
 
 For Maximum External Rotation and Ball Release, all six predictions were within the annotated range or one frame from the nearest boundary. For Foot Contact, four of the six predictions fell within the annotated first-contact range.
 
 Foot Contact was less consistent because the original heuristic sometimes detected the planted or settled foot position rather than the first visible ground-contact frame.
 
-This was a small evaluation added after the original course project, rather than a large-scale benchmark.
+This was a small evaluation added after the original course project, rather than a large-scale benchmark.Detailed annotation definitions, per-clip results, and failure-mode notes are available in [docs/EVALUATION.md](docs/EVALUATION.md).
 
 ## Limitations
 
