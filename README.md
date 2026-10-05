@@ -68,12 +68,14 @@ For Maximum External Rotation and Ball Release, all six predictions were within 
 
 Foot Contact was less consistent because the original heuristic sometimes detected the planted or settled foot position rather than the first visible ground-contact frame.
 
-This was a small evaluation added after the original course project, rather than a large-scale benchmark.Detailed annotation definitions, per-clip results, and failure-mode notes are available in [docs/EVALUATION.md](docs/EVALUATION.md).
+This was a small evaluation added after the original course project, rather than a large-scale benchmark.
+
+More details about the annotation definitions, per-clip results, and failure-mode notes are available in [docs/EVALUATION.md](docs/EVALUATION.md).
 
 ## Limitations
 
 - All measurements come from monocular 2D pose estimation, so camera viewpoint and projection affect the results.
-- The MER event is a timing proxy based on 2D forearm orientation, not a direct measurement of anatomical shoulder external rotation.
+- The MER event is a timing proxy based on 2D forearm orientation, not a direct measurement of shoulder external rotation.
 - Ball Release is inferred from arm geometry because the system does not directly track the baseball.
 - Foot Contact can sometimes align more closely with foot planting than with strict first ground contact.
 - The current evaluation set is small.
