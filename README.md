@@ -1,6 +1,6 @@
 # Pitcher Motion Analysis
 
-This was an undergraduate project I developed to analyze baseball pitching motion from ordinary side-view videos.
+This was an undergraduate project focused on analyzing baseball pitching motion from ordinary side-view videos. The project was completed by a two-person team; I independently developed the pitching-analysis system presented in this repository, while my teammate developed a separate batting-analysis system.
 
 The project started with a simple question: can key moments of a pitching motion be detected automatically from regular video without using a motion-capture system?
 
