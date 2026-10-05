@@ -68,7 +68,7 @@ For Maximum External Rotation and Ball Release, all six predictions were within 
 
 Foot Contact was less consistent because the original heuristic sometimes detected the planted or settled foot position rather than the first visible ground-contact frame.
 
-This was a small evaluation added after the original course project, rather than a large-scale benchmark.
+This was a small evaluation added after the original undergraduate project, rather than a large-scale benchmark.
 
 More details about the annotation definitions, per-clip results, and failure-mode notes are available in [docs/EVALUATION.md](docs/EVALUATION.md).
 
@@ -96,4 +96,4 @@ The first launch may take slightly longer while MediaPipe initializes its pose m
 
 ## Project Notes
 
-This repository is a cleaned-up version of the original undergraduate project. The Foot Contact, Maximum External Rotation, and Ball Release detection logic is unchanged from the original implementation. I later added a small evaluation and updated the GUI and documentation for public release.
+This repository is a cleaned-up version of the original undergraduate project. The Foot Contact, Maximum External Rotation, and Ball Release detection logic is unchanged from the original implementation. When I revisited the project in 2026, I added a small evaluation and updated the GUI and documentation.
